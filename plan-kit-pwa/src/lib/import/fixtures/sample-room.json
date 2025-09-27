@@ -1,0 +1,41 @@
+{
+  "room": {
+    "height_m": 2.5,
+    "walls": [
+      {
+        "start": { "x": 0.0, "y": 0.0 },
+        "end": { "x": 4000.0, "y": 0.0 },
+        "thickness_mm": 120,
+        "openings": [
+          { "type": "door", "width_mm": 800, "height_mm": 2030, "position_along_wall_mm": 500, "swing": "R" }
+        ]
+      },
+      {
+        "start": { "x": 4000.0, "y": 0.0 },
+        "end": { "x": 4000.0, "y": 3000.0 },
+        "thickness_mm": 120,
+        "openings": []
+      },
+      {
+        "start": { "x": 4000.0, "y": 3000.0 },
+        "end": { "x": 0.0, "y": 3000.0 },
+        "thickness_mm": 120,
+        "openings": [
+          {
+            "type": "window",
+            "width_mm": 1200,
+            "height_mm": 1200,
+            "sill_height_mm": 900,
+            "position_along_wall_mm": 1000
+          }
+        ]
+      },
+      {
+        "start": { "x": 0.0, "y": 3000.0 },
+        "end": { "x": 0.0, "y": 0.0 },
+        "thickness_mm": 120,
+        "openings": []
+      }
+    ]
+  }
+}
